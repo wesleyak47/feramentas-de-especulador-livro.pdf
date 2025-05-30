@@ -1,0 +1,42 @@
+:root {
+    --default-green:#1ed760;
+    --light-green:#1ed760;
+    
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    } 
+    
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    /*utilizacao de classe*/
+    .btn-primary {
+        background: #1ea6d7;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px  60px;
+        border: none;
+        border-radius: 30px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        transition: 200ms ease;
+    }
+    h1{
+        background-attachment: fixed;
+        background-color: rgb(127, 219, 255);
+        text-transform: uppercase;
+        padding: 15px 60px ; 
+        border: none;
+        border-radius: 30px;
+        letter-spacing: 1px;
+        font-weight: bolder;
+        transition: 200ms;
+        flex-direction: column;
+        -ms-flex-item-align: auto;
+
+    }
